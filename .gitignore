@@ -1,0 +1,30 @@
+# Ignorar configuraciones sensibles
+config/database.php
+config/*.json
+
+# Ignorar archivos de autenticación Google
+public/auth.php
+public/callback.php
+
+# Ignorar controladores con claves o lógica sensible
+controllers/CitaController.php
+
+# Ignorar sesiones, tokens, logs u otros archivos generados
+*.log
+*.env
+*.bak
+*.tmp
+*.swp
+
+# Ignorar carpetas o archivos ocultos del sistema o editores
+.DS_Store
+Thumbs.db
+*.vscode/
+*.idea/
+
+# Ignorar dependencias externas (si llegas a usarlas)
+vendor/
+node_modules/
+
+# Ignorar archivos de respaldo (como los que hiciste)
+agenda_comercial_backup/
